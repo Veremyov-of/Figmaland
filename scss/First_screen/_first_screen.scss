@@ -1,0 +1,49 @@
+.first_screen {
+    padding: 260px;
+    height: 936px;
+    width: 100%;
+    background-image: url("../.././img/intro.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    &_wrapp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &_title {
+            text-align: center;
+            width: 645px;
+            height: auto;
+            color: #fff;
+            font-weight: bold;
+            font-size: 74px;
+            line-height: 84px;
+            letter-spacing: 0.2px;
+        }
+        &_text {
+            margin-top: 17px;
+            width: 732px;
+            height: auto;
+            text-align: center;
+            font-size: 28px;
+            font-weight: normal;
+            line-height: 40px;
+            letter-spacing: 0.2px;
+            color: #fff;
+        }
+        &_link {
+            margin-top: 70px;
+            display: block;
+            width: 236px;
+            height: 52px;
+            border-radius: 35px;
+            background-color: #fff;
+            text-align: center;
+            line-height: 52px;
+            font-weight: normal;
+            font-size: 20px;
+            letter-spacing: 0.2px;
+            color: #2091F9;
+        }
+    }
+}
