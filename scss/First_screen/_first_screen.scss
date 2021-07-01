@@ -1,10 +1,11 @@
 .first_screen {
-    padding: 260px;
-    height: 936px;
+    padding-top: 260px;
+    height: 934px;
     width: 100%;
     background-image: url(".././img/intro.png");
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: 100% 100%;
     &_wrapp {
         display: flex;
         flex-direction: column;

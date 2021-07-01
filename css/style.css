@@ -99,12 +99,13 @@ a {
 }
 
 .first_screen {
-  padding: 260px;
-  height: 936px;
+  padding-top: 260px;
+  height: 934px;
   width: 100%;
   background-image: url(".././img/intro.png");
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: 100% 100%;
 }
 
 .first_screen_wrapp {
@@ -159,6 +160,7 @@ a {
 }
 
 .features {
+  width: 100%;
   margin-top: 80px;
   color: #fff;
 }
@@ -184,7 +186,8 @@ a {
 }
 
 .features_wrapp {
-  width: 869px;
+  padding: 0 50px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 80px;
   height: auto;
