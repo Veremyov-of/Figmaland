@@ -1,0 +1,42 @@
+.intro {
+    margin-top: 200px;
+    &_wrapp {
+        padding-top: 20px;
+        background-image: url("../../img/intro_book.png");
+        background-repeat: no-repeat;
+        background-position: center right;
+        &_title {
+            width: 324px;
+            height: auto;
+            font-weight: normal;
+            font-size: 48px;
+            line-height: 55px;
+            letter-spacing: 0.2px;
+            color: #fff;
+        }
+        &_text {
+            margin-top: 17px;
+            width: 510px;
+            height: auto;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 40px;
+            letter-spacing: 0.2px;
+            color: #fff;
+        }
+        &_link {
+            margin-top: 60px;
+            display: block;
+            background-color:#2091F9;
+            color: #fff;
+            width: 236px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 0.1px;
+            border-radius: 35px;
+        }
+    }
+}
