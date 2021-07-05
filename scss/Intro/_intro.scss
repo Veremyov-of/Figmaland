@@ -1,14 +1,12 @@
 .intro {
-    margin-top: 100px;
+    margin-top: 200px;
     &_wrapp {
         width: 100%;
-        height: 472px;
         background-image: url(".././img/intro_book.png");
         background-repeat: no-repeat;
         background-position: center right;
         background-size: 50%;
         &_title {
-            padding-top: 70px;
             width: 324px;
             height: auto;
             font-weight: normal;
