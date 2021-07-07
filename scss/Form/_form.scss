@@ -68,6 +68,12 @@
                 line-height: 20px;
                 letter-spacing: 0.2px;
                 color: #FFFFFF;
+                border: 2px solid #2091F9;
+                transition: border .3s;
+                &:hover {
+                    border: 2px solid #fff;
+                    transition: border .3s;
+                }
             }
         }
     }
