@@ -695,7 +695,7 @@ a {
 }
 
 .testimonials_btn {
-  margin-top: 80px;
+  margin-top: 60px;
   width: 263px;
   height: 60px;
   background-color: #2091F9;
@@ -705,5 +705,14 @@ a {
   line-height: 28px;
   letter-spacing: 0.1px;
   border-radius: 35px;
+  border: 2px solid #2091F9;
+  -webkit-transition: border .2s;
+  transition: border .2s;
+}
+
+.testimonials_btn:hover {
+  border: 2px solid #fff;
+  -webkit-transition: border .2s;
+  transition: border .2s;
 }
 /*# sourceMappingURL=style.css.map */
