@@ -1,0 +1,103 @@
+.pricing {
+    padding-top: 150px;
+    padding-bottom: 400px;
+    &_title {
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    &_text {
+        margin: 0 auto;
+        margin-top: 17px;
+        width: 510px;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    &_wrapp {
+        margin-top: 123px;
+        display: flex;
+        justify-content: space-between;
+        &_item {
+            // padding: 43px 0;
+            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+            width: 335px;
+            height: 550px;
+            border-radius: 15px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_title {
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 0.1px;
+                color: #252B42;
+                
+            }
+            &_text {
+                width: 142px;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+                letter-spacing: 0.1px;
+                color: #374754;
+            }
+            &_inner {
+                margin-top: 20px;
+                display: flex;
+                height: auto;
+                &_price {
+                    color: #252B42;
+                    font-weight: 500;
+                    font-size: 60px;
+                }
+                &_container {
+                    margin-left: 10px;
+                    color: #252B42;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    &_text {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+            }
+            ul {
+                margin-top: 20px;
+                li {
+                    margin-top: 10px;
+                    list-style-type: none;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: 0.2px;
+                    color: #252B42;
+                }
+            }
+
+            &_btn {
+                margin-top: 30px;
+                width: 255px;
+                height: 56px;
+                color: #fff;
+                background: #2091F9;
+                border-radius: 35px;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+            }
+        }
+    }
+}
