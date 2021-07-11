@@ -997,7 +997,7 @@ a {
 
 .contact .container .contact_form_button {
   background-color: #2091F9;
-  margin-left: 50px;
+  margin-left: 20px;
   color: #fff;
   width: 145px;
   height: 56px;
@@ -1087,5 +1087,83 @@ a {
 .contact .container .contact_wrapp_social_item {
   width: 40px;
   height: 40px;
+}
+
+.footer {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container .footer_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .container .footer_item_title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+
+.footer .container .footer_item ul li {
+  margin-top: 15px;
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.footer .container .footer_item ul li a {
+  margin-top: 15px;
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.footer .container .footer_item_link {
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .footer_item_link p {
+  margin-left: 10px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.footer .container .footer_item_social a {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
